@@ -37,4 +37,5 @@ yarn-error.log*
 .DS_Store
 *.pem
 
-go-boilerplate
+# Ignore Go binary in backend root, not the source directory
+/apps/backend/go-boilerplate
